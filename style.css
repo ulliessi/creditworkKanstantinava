@@ -1,0 +1,214 @@
+body {
+    font-family: "Trebuchet MS", verdana, arial, "Times New Roman";
+    font-size: 90%;
+    color: #3D3535;
+    background-color: #E4E5E0;
+    margin: 20px;
+    padding: 0px;
+    line-height: 140%;
+}
+
+.content {
+    padding: 20px;
+    flex-grow: ;
+}
+
+h1 {
+    font-size: 1.8em;
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #A53512;
+}
+
+.links {
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.links a {
+    display: inline-block;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    width: calc(25% - 10px);
+}
+
+.links img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.content table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.content table td {
+    padding: 5px;
+}
+
+.newsbar {
+	padding: 15px;
+    width: 97%;
+    margin: 0 auto;
+        }
+		
+.news-item {
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+.news-content {
+    background-color: #F0F0F0; /* Цвет фона для контента новости */
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.more-info {
+    color: #A53512;
+    text-decoration: none;
+}
+
+.more-info:hover {
+    text-decoration: underline;
+}
+
+a:link, a:active, a:visited {
+    color: #A53512;
+}
+
+a:hover {
+    color: #A53512;
+    text-decoration: none;
+}
+
+.box {
+	background-color: #FFFFFF;
+	padding: 20px; 
+	text-align: left; 
+	width: 95%;
+}
+
+.menu {
+    background-color: #FFFFFF;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+	padding-top: 15px;
+}
+
+.main-menu {
+    list-style: none;
+    padding: 10px; /* Отступы вокруг текста */
+    display: inline-block; /* Делаем основные пункты меню блочными */
+    border-radius: 10px; /* Скругление углов для основного меню */
+    background-color: #e0e0e0; /* Светлее серый цвет фона основного меню */
+}
+
+.main-menu li {
+    display: inline-block;
+    position: relative;
+    margin-right: 30px; /* Увеличение расстояния между пунктами меню */
+}
+
+.main-menu li:last-child {
+    margin-right: 0;
+}
+
+.main-menu li:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%; /* Расположение подменю под основным меню */
+    left: 50%; /* Центрирование подменю */
+    transform: translateX(-50%); /* Коррекция для центрирования подменю */
+    background-color: #FFFFFF;
+    border: 1px solid #ccc;
+    z-index: 1;
+    border-radius: 10px; /* Скругление углов для подменю */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Тень */
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+.sub-menu li {
+    width: 200px;
+}
+
+.sub-menu li a {
+    display: block;
+    padding: 12px 20px; /* Увеличение отступов */
+    text-decoration: none;
+    color: #333;
+}
+
+.sub-menu li a:hover {
+    background-color: #f9f9f9;
+    border-radius: 0; /* Убираем скругление углов при наведении */
+}
+
+.header {
+    background-color: #EDEEEA;
+    padding: 10px; 
+    margin-top: 3px;
+    height: 95px;
+}
+
+.menu a:link,
+.menu a:active,
+.menu a:visited {
+    color: #3D3535;
+    text-decoration: none;
+    margin: 0 0 0 4px;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background: #D6D8CF;
+    color: #000000;
+}
+
+/*just a fix, taken from http://www.positioniseverything.net/easyclearing.html*/
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clearfix {
+	display: inline-table;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
+
+.footer {
+clear:both;
+	background-color: #D6D8CF;
+	padding: 4px;
+	font-size: 80%;
+	text-align: center;
+}
+
+a:link, a:active, a:visited {
+	color: #A53512;
+}
+
+a:hover {
+	color: #A53512;
+	text-decoration: none;
+}
